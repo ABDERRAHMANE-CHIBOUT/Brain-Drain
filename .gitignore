@@ -1,0 +1,38 @@
+# ===============================
+# Raw survey data (DO NOT COMMIT)
+# ===============================
+survey_results_public.csv
+survey_results_schema.csv
+
+# ===============================
+# Derived / aggregated data
+# (can be regenerated from notebook)
+# ===============================
+analysis_ready.csv
+agg_*.csv
+country_master_*.csv
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+.vscode/
+.idea/
+
